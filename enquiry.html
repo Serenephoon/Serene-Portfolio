@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0bd637a588.js" crossorigin="anonymous"></script>
+    <title>Serene Phoon-Services</title>
+</head>
+<body>
+    <div id="navbar">
+        <div id="left-nav">
+            <div id="logoname">
+                <a href="index.html">Serene Phoon</a>
+            </div>
+            <button id="langToggle" class="lang-toggle">EN / 中文</button>
+        </div>
+        <div id="navigations">
+            <a href="index.html" data-i18n="homenav">Home</a>
+            <a href="about.html" data-i18n="aboutnav">About</a>
+            <a href="enquiry.html" data-i18n="servicesnav">Services</a>
+            <a href="contact.html" data-i18n="contactnav">Contact Me</a>
+        </div>
+        <button id="hamburger" class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="myStory">
+        <div class="mstitle" data-i18n="whatido">WHAT I DO</div>
+        <div class="mstitle2" data-i18n="myservices">My Services</div>
+        <div class="msdes" data-i18n="servicepro">Service Provided</div>
+    </div>
+        <div class="products-tabs">
+        <div class="tabs">
+            <button class="tab active" data-target="life-insurance" data-i18n="product1">Life Insurance</button>
+            <button class="tab" data-target="medical-card" data-i18n="product2">Medical Card</button>
+            <button class="tab" data-target="critical-illness" data-i18n="product3">Critical Illness</button>
+            <button class="tab" data-target="legacy" data-i18n="product4">Legacy</button>
+        </div>
+
+        <div class="product-description">
+            <div id="life-insurance" class="product-panel active">
+                <h3 data-i18n="product1">Life Insurance</h3>
+                <p data-i18n="lifeinsurance">Secure your legacy and give your loved ones the gift of financial security. Prudential's plans are designed to fit your budget and provide a safety net when your family needs it most.</p>
+                <a href="contact.html" class="know-more-btn" data-i18n="knowmore">Know More</a>
+            </div>
+            <div id="medical-card" class="product-panel">
+                <h3 data-i18n="product2">Medical Card</h3>
+                <p data-i18n="medcard">Protect your health and your wallet. Prudential's medical card helps cover eligible hospitalisation, surgery, and treatment expenses—so you can access quality care when you need it most.</p>
+                <a href="contact.html" class="know-more-btn" data-i18n="knowmore">Know More</a>
+            </div>
+            <div id="critical-illness" class="product-panel">
+                <h3 data-i18n="product3">Critical Illness</h3>
+                <p data-i18n="ci">Protect your income and savings from the unexpected. Prudential's plan pays a lump sum upon diagnosis of a covered critical illness, giving you financial breathing room when it matters most.</p>
+                <a href="contact.html" class="know-more-btn" data-i18n="knowmore">Know More</a>
+            </div>
+            <div id="legacy" class="product-panel">
+                <h3 data-i18n="product4">Legacy</h3>
+                <p data-i18n="legacy">Secure your family’s future with a legacy that lasts generations.Prudential's plan allows flexible legacy planning to ensure your legacy is passed on smoothly, according to your wishes.</p>
+                <a href="contact.html" class="know-more-btn" data-i18n="knowmore">Know More</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+<footer>
+    <footer class="site-footer">
+    <p>© 2026 Serene Phoon. All rights reserved.</p>
+    <p>Website designed & created by <strong>Chu Hong En (Human Made...Most of it)</strong></p>
+</footer>
+</html>
